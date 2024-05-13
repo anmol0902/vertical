@@ -1,0 +1,78 @@
+/* a:hover {
+    text-decoration: none;
+} */
+
+/* h1:hover a {
+    color: red;
+} */
+
+/* a{
+    display: none;
+} */
+
+/* div:hover a{
+    color: red;
+    text-decoration: none;
+} */
+
+/* div:hover a{
+    display: inline;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(217, 238, 83, 0.746);
+    width: 12%;
+    height: 100vh;
+}
+
+#cont{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: crimson;
+    padding: 20px;
+    display: block;
+}
+a:hover {
+    background-color: chartreuse;
+}
+
+/* #menu {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    position: relative;
+    display: none;
+} */
+
+#menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: aqua;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+
+    display: none;
+}
+
+#drop {
+    position: relative;
+}
+
+#drop:hover #menu {
+    display: block;
+}
+
